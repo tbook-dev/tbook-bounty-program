@@ -30,7 +30,7 @@ We value contributions that help improve TBook, and we are offering Toncoins as 
 
 ## How to Submit
 
-1. Identify an area for contribution, document your findings, and submit by **Submitting GitHub Issues**: Create an issue detailing your proposal or findings.
+1. Identify an area for contribution, document your findings, and submit by [**Submitting GitHub Issues**](https://github.com/tbook-dev/tbook-bounty-program/issues/new/choose): Create an issue detailing your proposal or findings.
 2. If you need further clarification for the issues you raised, please contact us in the [TBook Developer Community Telegram group](https://t.me/tbookcommunity).
 
 ## Join Us in Building a Safer, Better TBook
