@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug or issue with the platform.
-labels: "Bug"
+labels: ["Bug"]
 body:
   - type: markdown
     attributes:
