@@ -1,0 +1,50 @@
+name: Bug Report
+description: Report a bug or issue with the platform.
+labels: "Bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve the platform! Please provide detailed information about the bug you encountered.
+  - type: textarea
+    attributes:
+      label: "Summary"
+      description: "Provide a brief summary of the bug or issue."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to reproduce the bug."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Expected Behavior"
+      description: "Describe what you expected to happen."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Actual Behavior"
+      description: "Describe what actually happened."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Environment Details"
+      description: "Provide information about the environment where the bug occurred (e.g., version, browser, OS)."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Screenshots or Logs"
+      description: "Attach any relevant screenshots or logs to help identify the issue."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Additional Context"
+      description: "Add any other relevant information or links that may help resolve this issue."
+    validations:
+      required: false

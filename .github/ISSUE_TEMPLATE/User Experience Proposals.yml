@@ -1,0 +1,50 @@
+name: User Experience Proposals
+description: Suggest improvements to the user experience on the platform.
+labels: ["User Experience"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve the user experience! Please fill out the sections below to propose a UX enhancement.
+  - type: textarea
+    attributes:
+      label: "Summary"
+      description: "Provide a brief summary of the user experience improvement you're proposing."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Current UX Challenge"
+      description: "Describe the current UX challenge or pain point that this proposal addresses."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Proposed Improvement"
+      description: "Describe your proposed improvement in detail."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Expected Impact"
+      description: "Explain how this improvement will enhance the user experience."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "References or Inspiration"
+      description: "Provide links or references to similar UX designs or concepts, if applicable."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Estimated Effort"
+      description: "Estimate the effort or complexity involved in implementing this improvement, if possible."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Completion Criteria"
+      description: "List criteria to consider this proposal successfully implemented. Please use checkboxes '- [ ]'."
+    validations:
+      required: false

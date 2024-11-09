@@ -1,0 +1,56 @@
+name: Security Risks and Vulnerabilities
+description: Report a security risk or vulnerability within the platform.
+labels: ["Security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to keep the platform safe and secure! Please provide detailed information about the security risk or vulnerability you found.
+  - type: textarea
+    attributes:
+      label: "Summary"
+      description: "Briefly describe the security risk or vulnerability."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to reproduce the vulnerability, if applicable."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Expected Behavior"
+      description: "Describe what you expected to happen if the platform were secure in this scenario."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Impact Assessment"
+      description: "Describe the potential impact of this vulnerability on the platform and users."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Environment Details"
+      description: "Provide relevant environment details (e.g., platform version, browser, operating system)."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Suggested Fix or Mitigation"
+      description: "Provide suggestions on how this vulnerability could be addressed, if applicable."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Additional Context"
+      description: "Add any other relevant information or links that may help address this issue."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: "Disclosure and Confidentiality"
+      description: "If the issue should remain private, please indicate so here. Reach out via secure channels if necessary."
+    validations:
+      required: false
